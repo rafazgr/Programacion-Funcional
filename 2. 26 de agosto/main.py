@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print(cuadrado(8))
 #%%
 #Importar funciones desde una carpeta
-#Distintas formas de importar funciones
+#Distintas formas de importar funciones.
 import ops.operaciones as op
 import ops.sumar as s
 from ops.operaciones import producto

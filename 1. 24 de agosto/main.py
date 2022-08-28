@@ -64,7 +64,7 @@ print(suma2(3,3))
 # %%
 """
 Escribir una función que reciba un mensaje y un nombre
-y escriba en pantalla "<mensaje> <nombre>"
+y escriba en pantalla "<mensaje> <nombre>".
 """
 
 def mensaje(msg:str,nom:str)->str:
@@ -75,7 +75,7 @@ print(mensaje("Buen día","Rafa"))
 """
 Escribir una función que reciba el nombre y la edad 
 de una persona. El mensaje de salida tiene que ser:
-"Hola <nombre> tienes <edad> años"
+"Hola <nombre> tienes <edad> años".
 """
 
 def nombre_edad(nom:str,edad:int)->str:
@@ -87,7 +87,7 @@ print(nombre_edad("Rafa",18))
 Escribir una función que reciba el año actual y el año 
 de nacimiento, usando la función anterior enviando esta
 como argumento obtenga el mensaje:
-"Hola <nombre> tienes <edad> años"
+"Hola <nombre> tienes <edad> años".
 """
 
 def edad(actual:int,nacimiento:int)->int:
