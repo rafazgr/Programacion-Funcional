@@ -1,4 +1,4 @@
-# %%
+# %% Declarar funciones
 #Funcion con retorno
 def suma(a,b):
     return a+b
@@ -7,16 +7,15 @@ def suma(a,b):
 def sumap(a,b):
     print(a+b)
 
-#Entry point, nos permite estructurar mejor un programa.
+#Entry point, nos permite estructurar mejor nuestro programa.
 if __name__ == "__main__":
     print(suma(2,3))
     sumap(2,3)
 
-#Pass es una sentencia empleada para darle cuerpo a una función que no hace nada, ya que no puede quedar vacía.
+#Pass es una sentencia empleada para darle cuerpo a una función que no de momento no hace nada, ya que no puede quedar vacía.
 def nada():
     pass
-# %%
-#Tipado dinámico
+# %% Tipado dinámico
 x = 10
 print(x,"addr:",id(x))
 x = "hola"
@@ -26,8 +25,8 @@ print(y,"addr:",id(y))
 z="HOla"
 print(z,"addr:",id(z))
 #Al modificar el valor de una variable, se genera otra dirección de memoria, no modifican la inicial.
-# %%
-#Contador para analizar direcciones de memoria
+# %% Contador para analizar direcciones de memoria
+
 x=1
 print(x,":",id(x))
 x=x+1
@@ -47,15 +46,14 @@ print(x,":",id(x))
 x=x+1
 print(x,":",id(x))
 x=x+1
-# %%
-#Operador morsa, sirve para asignar valores dentro de una expresión.
+# %% Operador morsa, sirve para asignar valores dentro de una expresión.
 print(x:=10)
-# %%
+# %% Hints: nos ayudan a saber que tipo de datos debe ser el argumento a ingresar.
+
 #Función sin hints.
 def suma1(a,b):
     return a+b
 
-#Los hints nos ayuda a saber que tipo de datos debe ser el argumento a ingresar.
 def suma2(a:int,b:int)->int:
     return a+b
 

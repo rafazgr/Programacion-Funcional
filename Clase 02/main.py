@@ -1,7 +1,6 @@
-#%%
-#Importar funciones desde scripts individuales
+# %% Importar funciones desde scripts individuales
 
-import sumar as sm
+import sumar as sm #alias
 import restar as rs
 import multiplicar as mp
 import dividir as dv
@@ -13,8 +12,7 @@ if __name__ == "__main__":
     print(mp.producto(2,6))
     print(dv.cociente(10,5))
     print(cd.cuadrado(8))
-#%%
-#Importar desde un solo archivo
+# %% Importar todas las funciones desde un solo archivo
 
 from operaciones import *
 
@@ -24,8 +22,8 @@ if __name__ == "__main__":
     print(producto(2,6))
     print(cociente(10,5))
     print(cuadrado(8))
-#%%
-#Importar funciones desde una carpeta
+# %% Importar funciones desde una carpeta
+
 #Distintas formas de importar funciones.
 import ops.operaciones as op
 import ops.sumar as s
