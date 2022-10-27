@@ -150,7 +150,6 @@ void main() {
   calc.n2 = int.parse(stdin.readLineSync()!);
 
   print("${calc.calcular(calc.op, calc.n1, calc.n2)}");
-} ;
 }
 ```
 #### 3.4 Ejecución
